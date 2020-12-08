@@ -28,7 +28,7 @@ Abstract: >
       title: Dataset 1
       link: "http://data.caltech.edu"
 
-#image: /assets/img/abstractfigure.jpg
+image alter: /assets/img/abstractfigure.jpg
     
 
 Experimental Methods:  >
