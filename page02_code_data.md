@@ -58,8 +58,10 @@ sidebar: true
 
 {% for fig in site.data.figures2 %}
 
-<a img style="background-image: url({{site.url}}/{{site.baseurl}}/assets/img/{{fig.pic}})" href="{{site.baseurl}}/figures/{{fig.pdf}}"> </a>
+<a img src = "url({{site.url}}/{{site.baseurl}}/assets/img/{{fig.pic}})" href="{{site.baseurl}}/figures/{{fig.pdf}}"> </a>
 
+<div class="post-content">
+<b class="post-title"><a href="{{site.url}}/{{site.baseurl}}/software/{{fig.filename}}">{{fig.title}}</a></b>
 <p> {{fig.desc}}</p>
 
 <i>Necessary Data Sets </i><br/>
