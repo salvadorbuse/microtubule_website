@@ -33,7 +33,7 @@ sidebar: true
 {% for fig in site.data.figures %}
 <article class="post">
 
-<a style="background-image: url({{site.url}}/{{site.baseurl}}/assets/img/{{fig.pic}})" href="{{site.baseurl}}/figures/{{fig.pdf}}"> </a>
+<a class="post-thumbnail" style="background-image: url({{site.url}}/{{site.baseurl}}/assets/img/{{fig.pic}})" href="{{site.baseurl}}/figures/{{fig.pdf}}"> </a>
 
 <div class="post-content">
 <b class="post-title"><a href="{{site.url}}/{{site.baseurl}}/software/{{fig.filename}}">{{fig.title}}</a></b>
@@ -54,15 +54,12 @@ sidebar: true
 {% endif %}
 
 {% if site.data.figures2 %}
-## Figure Generation 2
+## Figure Generation Test
 
 {% for fig in site.data.figures2 %}
-<article class="post">
 
-<a class="post-thumbnail" style="background-image: url({{site.url}}/{{site.baseurl}}/assets/img/{{fig.pic}})" href="{{site.baseurl}}/figures/{{fig.pdf}}"> </a>
+<a img style="background-image: url({{site.url}}/{{site.baseurl}}/assets/img/{{fig.pic}})" href="{{site.baseurl}}/figures/{{fig.pdf}}"> </a>
 
-<div class="post-content">
-<b class="post-title"><a href="{{site.url}}/{{site.baseurl}}/software/{{fig.filename}}">{{fig.title}}</a></b>
 <p> {{fig.desc}}</p>
 
 <i>Necessary Data Sets </i><br/>
