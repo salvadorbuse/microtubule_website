@@ -57,8 +57,6 @@ sidebar: true
 ## Figure Generation Test
 
 {% for fig in site.data.figures2 %}
-<article class="post">
 <img src = "{{site.url}}/{{site.baseurl}}/assets/img/{{fig.pic}}" href="{{site.baseurl}}/figures/{{fig.pdf}}"> 
-</article>
 {%endfor%}
 {% endif %}
