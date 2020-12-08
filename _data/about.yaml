@@ -29,7 +29,7 @@ Does tubulin labeling affect microtubule growth?: >
     The authors' TIRF experiment utilized Alexa-488 dye to image tubulin polymerization onto microtubules. To confirm that the dye doesn't interfere with dynamic instability, the authors conducted a control experiment in which they monitor the time to catastrophe for both labeled and unlabeled tubulin. We evaluate the results of that experiment here.
 
 
-    Comparison of plug-in estimates
+    **Comparison of plug-in estimates**
 
 
     While evaluation by eye cannot replace more rigorous statistical inference, an eye test can be useful for initial assessment of the data. A plot of ECDFs for the time to catastrophe for labeled and unlabeled tubulin reveals that the two distributions are similar, however not identical (Figure 3). The 95% confidence regions generated in iqplot overlap significantly (Figure 3, shaded regions); however these observations are not enough to make conclusive statements regarding the similarity of the two distributions.
@@ -41,7 +41,7 @@ Does tubulin labeling affect microtubule growth?: >
     Obtaining and comparing confidence intervals for the mean times to catastrophe provides more insight toward the similarity of this plug-in estimate than simply comparing two values does. Bootstrapping from the empirical data with a sample size of $n = 10000$, we generate 10,000 bootstrap replicates of the mean (Figure 4). Using these bootstrap replicates in our calculation of confidence intervals shows that the 95% confidence interval for the mean time to catastrophe for labeled tubulin is [401.87, 482.18] seconds, while this 95% confidence interval for unlabeled tubulin is [354.05, 476.32] seconds. These confidence intervals are similar, but the labeled confidence interval is narrower, and shifted towards longer values than, the unlabeled interval. Both of these phenomena are expected: there are more labeled datapoints, so we would expect a narrower confidence interval; additionally, as seen above, the mean of the labeled waiting times is above the mean of the unlabeled waiting times. As an aside, the two ECDFs of the mean times to catastrophe look like Normal distributions as the means of the samples obey the central limit theorerm. We confirm this observation through overlay of the ECDFs with theoretical CDFs of the normal distribution parameterized by the labeled and unlabeled tubulin data (Figure 5).
 
 
-    Construction of confidence intervals
+    **Construction of confidence intervals**
 
 
     We use theory to construct 95% confidence intervals for the ECDFs of the raw data (Figure 6). Specifically, we use the Dvoretzky-Kiefer-Wolfowitz Inequality (DKW) to identify upper and lower bounds between which lie the 95% confidence intervals. These upper and lower bounds correspond to the maximum distances between the ECDF and the generative CDF in the positive and negative directions.
@@ -53,7 +53,7 @@ Does tubulin labeling affect microtubule growth?: >
     Overall, there is very significant overlap of the theoretical confidence intervals for labeled an unlabeled tubulin, which supports the observations we have made thus far that the two are very similarly distributed.
 
 
-    Null hypothesis significance testing
+    **Null hypothesis significance testing**
 
 
     We use NHST to test the hypothesis that the catastrophe time distributions are exactly the same for labeled and unlabeled microtubules. Given this hypothesis, we can use the permutation method: that is to say, under they hypothesis, labeled and unlabeled datapoints come from the exact same generative distribution, and so any difference in any statistical functional (e.g. mean, variance) between the two sets has arisen randomly when we sampled the underlying distribution to divide into these sets. Consequently, to test this hypothesis, we can combine all of the datapoints into a single set, and repeat the process of randomly dividing them into two samples with containing the same number of points as the experimental samples: under the hypothesis, this is how the experimental data were generated! We compute the statistical functionals on these 'permuation' samples, and see how often this is as extreme as it is for the experimental samples.
