@@ -34,7 +34,6 @@ fname = os.path.join(data_path, "gardner_time_to_catastrophe_dic_tidy.csv")
 
 df6 = pd.read_csv(fname)
 df6['labeled'] = df6['labeled'].apply(lambda x: 'labeled' if x == True else 'unlabeled')
-df6.head()
 
 # Plot the data with an overlaid 95% confidence interval
 p = iqplot.ecdf(
