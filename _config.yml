@@ -11,7 +11,7 @@ url: "https://salvadorbuse.github.io" # Base of your website.In most cases, this
 # You can include social icons
 #site-twitter: #if your site has a twitter account, enter it here
 social-github: salvadorbuse # add your Github handle here.
-#social-email: username@hostname.com
+social-email: username@hostname.com
 
 # If you are using google analytics to track website traffic, you can insert the
 # tracking key below. It will be automatically inserted into the header of every
