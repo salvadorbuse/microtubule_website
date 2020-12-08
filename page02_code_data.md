@@ -58,7 +58,7 @@ sidebar: true
 
 {% for fig in site.data.figures2 %}
 
-<a img src = "{{site.url}}/{{site.baseurl}}/assets/img/{{fig.pic}}" > </a>
+<a img src = "{{site.url}}/{{site.baseurl}}/assets/img/{{fig.pic}}" href="{{site.baseurl}}/figures/{{fig.pdf}}"> </a>
 
 {%endfor%}
 {% endif %}
