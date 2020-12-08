@@ -23,7 +23,7 @@ Abstract: >
     - the complete rearrangement of microtubules during mitosis is one example. At some point during their lifetimes, the 
     alternating growth and shortening events suddenly transition to a period dominated by depolymerization. This 
     phenomenon, known as microtubule collapse, had long been poorly understood by the scientific community. Here, we 
-    explore a dataset compiled by Gardner et al., presented in [this Cell paper] 
+    explore a dataset compiled by Gardner et al., presented in [this Cell paper]
     (https://doi.org/10.1016/j.cell.2011.10.037). We find that microtubule catastrophe is a Gamma-distributed process, 
     indicating that catastrophe is a series of depolymerization events occurring at the same rate. Additionally, we 
     observe that increasing tubulin concentrations delay the onset of catastrophe, indicating that the addition of tubulin 
