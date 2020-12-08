@@ -1,8 +1,8 @@
 """Docstring goes here!"""
 
-from .module1 import *
-from .module2 import *
-from .module3 import *
+from .part1_labeled_unlabeled import *
+from .part2_modeling import *
+from .part3_tubulin import *
 
 __author__ = 'group 17'
 __email__ = 'sbuse@caltech.edu'
