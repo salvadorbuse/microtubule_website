@@ -53,6 +53,7 @@ sidebar: true
 {%endfor%}
 {% endif %}
 
+{% if site.data.figures2 %}
 ## Figure Generation 2
 
 {% for fig in site.data.figures2 %}
