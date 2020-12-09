@@ -57,6 +57,6 @@ sidebar: true
 ## Figure Generation Test
 
 {% for fig in site.data.figures2 %}
-<img src = "{{site.url}}/{{site.baseurl}}/assets/img/{{fig.pic}}"> 
+<div img src = "{{site.url}}/{{site.baseurl}}/assets/img/{{fig.pic}}"> </div>
 {%endfor%}
 {% endif %}
