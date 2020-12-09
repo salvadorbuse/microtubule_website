@@ -30,13 +30,13 @@ Experimental Methods:  >
     ![Figure2](https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif)
     
     
-    **Figure 2s.** A demonstration of tubulin incorporation into microtubles. Source: Varga et al., 2006
+    **Figure 2.** A demonstration of tubulin incorporation into microtubles. Source: Varga et al., 2006
     
     
     <img style="display: block; margin: auto;" src="https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif">
     
     
-    <img style="display: block; margin: auto;" src="{{site.url}}//{{site.baseurl}}/assets/img/Varga2006microtubules.gif">
+    <img style="display: block; margin: auto;" src="{{site.url}}/{{site.baseurl}}/assets/img/Varga2006microtubules.gif">
  
 Statistical Methods Employed: > 
     We conduct statistical inference through a number of analyses, described here and in later sections. We demonstrate that there is no difference in time to microtubule catastrophe for labeled versus unlabeled tubulin through generation of bootstrap samples, calculation of statistical functionals and confidence intervals, and a null hypothesis significance test. To model the occurrence of microtubule catastrophe, we consider both the Gamma and Poisson distributions. We generate each of these models parameterized by data obtained by Gardner and coworkers, then conduct graphical and non-graphical model assessment to identify the more appropriate model.
