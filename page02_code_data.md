@@ -57,11 +57,25 @@ sidebar: true
 ## Figure Generation Test
 
 {% for fig in site.data.figures2 %}
-<img src = "{{site.url}}/{{site.baseurl}}/assets/img/{{fig.pic}}"> .center {
-margin: auto;
-width: 60%;
-border: 3px solid #73AD21;
-padding: 10px;
+<img src = "{{site.url}}/{{site.baseurl}}/assets/img/{{fig.pic}}"> 
+{%endfor%}
+{% endif %}
+
+{% if site.data.figures2 %}
+## Figure Generation Test 2
+
+{% for fig in site.data.figures2 %}
+<style>
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
 }
+</style>
+
+<div class="center">
+    <img src = "{{site.url}}/{{site.baseurl}}/assets/img/{{fig.pic}}"> 
+</div>
 {%endfor%}
 {% endif %}
