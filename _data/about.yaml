@@ -158,19 +158,26 @@ A mathematical aside on the Poisson distribution: >
 
     \begin{align}
         f(t) &= \int_0^t \mathrm{d}t_1 \, f(t, t_1)
-        
+    \end{align}
+    \begin{align}   
         & = \int_0^t \mathrm{d}t_1 \, \beta_1 \beta_2 e^{-\beta_1 t_1} e^{-\beta_2 (t-t_1)} 
-        
+    \end{align}
+    \begin{align}    
         & = \left [ \frac{1}{-\beta_1 - (-\beta_2)} \, \beta_1 \beta_2 e^{-\beta_1 t_1} e^{-\beta_2 (t-t_1)} \, \right]_0^t
-        
+    \end{align}
+    \begin{align}   
         & = \left ( \frac{1}{\beta_2 - \beta_1} \right )[\beta_1\beta_2 e^{-\beta_1 t} e^{-\beta_2 (0)}] - [\beta_1\beta_2 e^{-\beta_1 (0)} e^{-\beta_2 (t-0)}]
-        
+    \end{align}
+    \begin{align}   
         & = \left ( \frac{1}{\beta_2 - \beta_1} \right )[\beta_1\beta_2 e^{-\beta_1 t} \, (1)] - [\beta_1\beta_2 \, (1) \, e^{-\beta_2 t}]
-        
+    \end{align}
+    \begin{align}    
         & = \left ( \frac{1}{\beta_2 - \beta_1} \right )[\beta_1\beta_2 e^{-\beta_1 t}] - [\beta_1\beta_2 e^{-\beta_2 t}]
-        
+    \end{align}
+    \begin{align}   
         & = \left ( \frac{1}{\beta_2 - \beta_1} \right )(\beta_1\beta_2)(e^{-\beta_1 t} - e^{-\beta_2 t})
-        
+    \end{align}
+    \begin{align}    
         & = \left ( \frac{\beta_1\beta_2}{\beta_2 - \beta_1} \right )(e^{-\beta_1 t} - e^{-\beta_2 t})
     \end{align}
 
