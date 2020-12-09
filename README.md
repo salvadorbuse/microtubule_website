@@ -1,46 +1,9 @@
-# Reproducible Research Website Template
-This repository is a bare-bones template website for publishing of your work as
-an interactive website. It's tailored for easy inclusion of data files, plots,
-and interactive figures. It is a heavily modified form of the Jekyll template
-[Flexible Jekyll](https://artemsheludko.github.io/flexible-jekyll/) by
-[`@artemsheludko`](https://github.com/artemsheludko). It is originally published
-under the [GNU General Public License
-v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) and is distributed here
-under the same license terms.
+# Microtubules!
+A website detailing the investigations Helena, Salvador, and Elin have made into microtubule catastrophe data during the Fall term of 2020 for the Caltech course BE/Bi 103a.
 
-This repository is designed to be hosted as a website on GitHub using the
-[GitHub Pages]() hosting service. This service is based on the Ruby framework
-[Jekyll]() which is tailored for blog management. I've made several
-modifications to the structure to be amenable for scientific publications. 
 
-## How Do I Use This?
-Full documentation of how to use this repository as either a standalone website
-or as a branch in another repository can be found on the [GitHub Wiki page](https://github.com/gchure/reproducible_website/wiki)
-for this repository. 
-
-## Software requirements 
-To deploy locally, you must have a [Ruby development environment]() installed as
-well as [Jekyll](). You can install Jekyll via 
-
-```
-gem install jekyll bundler
-```
-
-Once you have Jekyll installed, you can install of the Ruby requirements for
-this website by running the following in the command line from the template directory:
-
-```
-bundle install
-```
-
-The build and preview the website locally, execute the following:
-```
-bundle exec jekyll serve --watch
-```
-
-This will build the website and serve it up at the address:
-[http://127.0.0.1:4000](http://127.0.0.1:4000).
-
+## Acknowledgements
+We are very grateful to Griffin Chure for providing the [template](https://github.com/gchure/reproducible_website) we used to create this website. We would also like to thank Gardner, coworkers, and all other scientists who generously shared their data with us over the course of the semester; the TAs for their hard work in making BE/Bi103a a success; and of course, Justin Bois, for his constant effort, enthusiasm, and dedication to his students.
 
 ## License
 This template is a heavily modified version of [Flexible
