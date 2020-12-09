@@ -20,21 +20,6 @@ sidebar: true
 {% if entry[0] != 'authors' %}
 ## {{entry[0]}}
 {{entry[1]}}
-
-
-{% for fig in site.data.figure3 %}
-<style>
-.center {
-  margin: auto;
-  width: 60%;
-  border: 3px solid #73AD21;
-  padding: 10px;
-}
-</style>
-
-<div class="center">
-    <img src = "{{site.url}}/{{site.baseurl}}/assets/img/{{figure3.pic}}"> 
-</div>
 {% endif %}
 {% endif %}
 {% endfor %}
