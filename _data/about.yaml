@@ -29,8 +29,9 @@ Experimental Methods:  >
     
     <img style="display: block; margin: auto;" src="https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif">
     
-    
-    **Figure 2.** A demonstration of tubulin incorporation into microtubles. Source: Varga et al., 2006
+    <p style = "text-align: center;">
+        **Figure 2.** A demonstration of tubulin incorporation into microtubles. Source: Varga et al., 2006
+    </p>
     
     <style>
     * {
@@ -109,6 +110,9 @@ Does tubulin labeling affect microtubule growth?: >
     
     
     ![Figure3](https://salvadorbuse.github.io//microtubule_website/assets/img/figure3.png)
+    
+    
+    <img src="https://salvadorbuse.github.io//microtubule_website/assets/img/figure3.png" style="width:50%">
     
     
     **Figure 3.** ECDFs of time to microtubule catastrophe for labeled and unlabeled tubulin. 95% confidence intervals are shown (shaded regions).
