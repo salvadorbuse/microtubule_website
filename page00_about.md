@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Analysis
 description: Information about the project, website, and links to the paper and SI
 img: about.png # Add image post (optional)
 caption: "A Serious Man (20??)  "
