@@ -5,11 +5,11 @@
   desc:
         Used to generate Figure 3, 
   pic: figure3.png
-  req: https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv
+  req: 
     - ds:
-      title: 
-      storage: 
-      link: 
+      title: Raw Data, Labeled vs. Unlabeled Tubulin
+      storage: Remote
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
       
 - fig: 
   title: "Figure 4. ECDFs of the bootstrapped mean times to catastrophe obtained for labeled and unlabeled tubulin.
@@ -20,9 +20,9 @@
   pic: figure4.png
   req:
     - ds:
-      title: 
-      storage: 
-      link: 
+      title: Raw Data, Labeled vs. Unlabeled Tubulin
+      storage: Remote
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
       
 - fig: 
   title: "Figure 5. ECDFs of the bootstrapped mean times to catastrophe overlaid with theoretical CDFs of the Normal distribution.
@@ -33,9 +33,9 @@
   pic: figure5.png
   req:
     - ds:
-      title: 
-      storage: 
-      link: 
+      title: Raw Data, Labeled vs. Unlabeled Tubulin
+      storage: Remote
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
       
 - fig: 
   title: "Figure 6. 95% confidence intervals calculated by theory.
@@ -46,9 +46,9 @@
   pic: figure6a.png
   req:
     - ds:
-      title: 
-      storage: 
-      link: 
+      title: Raw Data, Labeled vs. Unlabeled Tubulin
+      storage: Remote
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
       
 - fig: 
   title: "Figure 6. 95% confidence intervals calculated by bootstrapping from the empirical data.
@@ -59,9 +59,9 @@
   pic: figure6b.png
   req:
     - ds:
-      title: 
-      storage: 
-      link:
+      title: Raw Data, Labeled vs. Unlabeled Tubulin
+      storage: Remote
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
       
 - fig: 
   title: "Figure 7. Predictive ECDFs for the Gamma distribution overlaid with the ECDF of time to microtubule catastrophe.
@@ -72,9 +72,9 @@
   pic: figure7a.png
   req:
     - ds:
-      title: 
-      storage: 
-      link: 
+      title: Raw Data, Varying Tubulin Concentrations
+      storage: remote
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
       
 - fig: 
   title: "Figure 7. Predictive ECDFs for the Poisson distribution overlaid with the ECDF of time to microtubule catastrophe.
@@ -85,9 +85,9 @@
   pic: figure7b.png
   req:
     - ds:
-      title: 
-      storage: 
-      link:
+      title: Raw Data, Varying Tubulin Concentrations
+      storage: remote
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
       
 - fig: 
   title: "Figure 8. Q-Q plot comparing the model to the empirical data for the Gamma distribution.
@@ -98,9 +98,9 @@
   pic: figure8a.png
   req:
     - ds:
-      title: 
-      storage: 
-      link:
+      title: Raw Data, Varying Tubulin Concentrations
+      storage: remote
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
       
 - fig: 
   title: "Figure 8. Q-Q plot comparing the model to the empirical data for the Poisson distribution.
@@ -111,9 +111,9 @@
   pic: figure8b.png
   req:
     - ds:
-      title: 
-      storage: 
-      link:
+      title: Raw Data, Varying Tubulin Concentrations
+      storage: remote
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
       
 - fig: 
   title: "Figure 9. Visualization of the differences between the empirical and predictive ECDFs for the Gamma distribution.
@@ -124,9 +124,9 @@
   pic: figure9a.png
   req:
     - ds:
-      title: 
-      storage: 
-      link:
+      title: Raw Data, Varying Tubulin Concentrations
+      storage: remote
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
       
 - fig: 
   title: "Figure 9. Visualization of the differences between the empirical and predictive ECDFs for the Poisson distribution.
@@ -137,9 +137,9 @@
   pic: figure9b.png
   req:
     - ds:
-      title: 
-      storage: 
-      link:
+      title: Raw Data, Varying Tubulin Concentrations
+      storage: remote
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
       
 - fig: 
   title: "Figure 10. ECDFs of time to catastrophe at various tubulin concentrations (legend).
@@ -150,9 +150,9 @@
   pic: figure10.png
   req:
     - ds:
-      title: 
-      storage: 
-      link:
+      title: Raw Data, Varying Tubulin Concentrations
+      storage: remote
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
       
 - fig: 
   title: "Figure 11. Gamma parameter $\alpha$ at various tubulin concentrations.
@@ -163,9 +163,9 @@
   pic: figure11a.png
   req:
     - ds:
-      title: 
-      storage: 
-      link:
+      title: Raw Data, Varying Tubulin Concentrations
+      storage: remote
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
       
 - fig: 
   title: "Figure 11. Gamma parameters $\beta$ at various tubulin concentrations.
@@ -176,9 +176,9 @@
   pic: figure11b.png
   req:
     - ds:
-      title: 
-      storage: 
-      link:
+      title: Raw Data, Varying Tubulin Concentrations
+      storage: remote
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
       
 - fig: 
   title: "Figure 11. Gamma parameter $\alpha/\beta$ at various tubulin concentrations.
@@ -189,6 +189,6 @@
   pic: figure11c.png
   req:
     - ds:
-      title: 
-      storage: 
-      link:
+      title: Raw Data, Varying Tubulin Concentrations
+      storage: remote
+      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
