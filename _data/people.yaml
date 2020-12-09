@@ -9,23 +9,26 @@
 # of the `page01_people.md` file.
 # ##############################################################################
 - author:
-  name: Dr. Osophila
-  link: "https://en.wikipedia.org/wiki/Drosophila"
-  title: Postdoctoral Scholar
-  img: dr_osophila.jpg
-  institute: Bicoid Institute of Development
+  name: Helena Awad
+  link: 
+  title: G1, Chemistry
+  img: 
+  institute: Caltech
   other_info:
-     Email Address: "flyguy@university.edu"
+     Email Address: "helena@caltech.edu"
 - author:
-  name: Dr. Melanie O'Gaster
-  link: "https://en.wikipedia.org/wiki/Drosophila_melanogaster"
-  title: Postdoctoral Scholar
-  img: melanogaster.jpg
-  institute: French Flag Research Institute
+  name: Salvador Buse
+  link: 
+  title: G1, Bioengineering
+  img: 
+  institute: Caltech
   other_info:
-    Current Location: Apple Juice Plates, Inc
-
+    Email Address: "sbuse@caltech.edu"
 - author:
-  name: Sally Monella
-  title: Research Technician
-  institute: French Flag Research Institute
+  name: Elin Larsson
+  link: 
+  title: G1, Bioengineering
+  img: 
+  institute: Caltech
+  other_info:
+    Email Address: "elarsson@caltech.edu"
