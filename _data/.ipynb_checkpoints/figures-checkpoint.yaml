@@ -9,7 +9,7 @@
     - ds:
       title: Raw Data, Labeled vs. Unlabeled Tubulin
       storage: Remote
-      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
+      link: "datasets/gardner_time_to_catastrophe_dic_tidy.csv"
       
 - fig: 
   title: "Figure 4. ECDFs of the bootstrapped mean times to catastrophe obtained for labeled and unlabeled tubulin.
@@ -22,7 +22,7 @@
     - ds:
       title: Raw Data, Labeled vs. Unlabeled Tubulin
       storage: Remote
-      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
+      link: "datasets/gardner_time_to_catastrophe_dic_tidy.csv"
       
 - fig: 
   title: "Figure 5. ECDFs of the bootstrapped mean times to catastrophe overlaid with theoretical CDFs of the Normal distribution.
@@ -35,7 +35,7 @@
     - ds:
       title: Raw Data, Labeled vs. Unlabeled Tubulin
       storage: Remote
-      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
+      link: "datasets/gardner_time_to_catastrophe_dic_tidy.csv"
       
 - fig: 
   title: "Figure 6a. 95% confidence intervals calculated by theory.
@@ -48,7 +48,7 @@
     - ds:
       title: Raw Data, Labeled vs. Unlabeled Tubulin
       storage: Remote
-      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
+      link: "datasets/gardner_time_to_catastrophe_dic_tidy.csv"
       
 - fig: 
   title: "Figure 6b. 95% confidence intervals calculated by bootstrapping from the empirical data.
@@ -61,7 +61,7 @@
     - ds:
       title: Raw Data, Labeled vs. Unlabeled Tubulin
       storage: Remote
-      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
+      link: "datasets/gardner_time_to_catastrophe_dic_tidy.csv"
       
 - fig: 
   title: "Figure 7a. Predictive ECDFs for the Gamma distribution overlaid with the ECDF of time to microtubule catastrophe.
@@ -74,7 +74,7 @@
     - ds:
       title: Raw Data, Varying Tubulin Concentrations
       storage: remote
-      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
+      link: "datasets/gardner_mt_catastrophe_only_tubulin.csv"
       
 - fig: 
   title: "Figure 7b. Predictive ECDFs for the Poisson distribution overlaid with the ECDF of time to microtubule catastrophe.
@@ -87,7 +87,7 @@
     - ds:
       title: Raw Data, Varying Tubulin Concentrations
       storage: remote
-      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
+      link: "datasets/gardner_mt_catastrophe_only_tubulin.csv"
       
 - fig: 
   title: "Figure 8a. Q-Q plot comparing the model to the empirical data for the Gamma distribution.
@@ -100,7 +100,7 @@
     - ds:
       title: Raw Data, Varying Tubulin Concentrations
       storage: remote
-      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
+      link: "datasets/gardner_mt_catastrophe_only_tubulin.csv"
       
 - fig: 
   title: "Figure 8b. Q-Q plot comparing the model to the empirical data for the Poisson distribution.
@@ -113,7 +113,7 @@
     - ds:
       title: Raw Data, Varying Tubulin Concentrations
       storage: remote
-      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
+      link: "datasets/gardner_mt_catastrophe_only_tubulin.csv"
       
 - fig: 
   title: "Figure 9a. Visualization of the differences between the empirical and predictive ECDFs for the Gamma distribution.
@@ -126,7 +126,7 @@
     - ds:
       title: Raw Data, Varying Tubulin Concentrations
       storage: remote
-      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
+      link: "datasets/gardner_mt_catastrophe_only_tubulin.csv"
       
 - fig: 
   title: "Figure 9b. Visualization of the differences between the empirical and predictive ECDFs for the Poisson distribution.
@@ -139,7 +139,7 @@
     - ds:
       title: Raw Data, Varying Tubulin Concentrations
       storage: remote
-      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
+      link: "datasets/gardner_mt_catastrophe_only_tubulin.csv"
       
 - fig: 
   title: "Figure 10. ECDFs of time to catastrophe at various tubulin concentrations (legend).
@@ -152,7 +152,7 @@
     - ds:
       title: Raw Data, Varying Tubulin Concentrations
       storage: remote
-      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
+      link: "datasets/gardner_mt_catastrophe_only_tubulin.csv"
       
 - fig: 
   title: "Figure 11a. Gamma parameter alpha at various tubulin concentrations.
@@ -165,7 +165,7 @@
     - ds:
       title: Raw Data, Varying Tubulin Concentrations
       storage: remote
-      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
+      link: "datasets/gardner_mt_catastrophe_only_tubulin.csv"
       
 - fig: 
   title: "Figure 11b. Gamma parameter beta at various tubulin concentrations.
@@ -178,7 +178,7 @@
     - ds:
       title: Raw Data, Varying Tubulin Concentrations
       storage: remote
-      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
+      link: "datasets/gardner_mt_catastrophe_only_tubulin.csv"
       
 - fig: 
   title: "Figure 11c. Gamma parameter alpha/beta at various tubulin concentrations.
@@ -191,4 +191,30 @@
     - ds:
       title: Raw Data, Varying Tubulin Concentrations
       storage: remote
-      link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
+      link: "datasets/gardner_mt_catastrophe_only_tubulin.csv"
+
+- fig: 
+  title: "Table 1. Maximum likelihood estimates of the parameters, log-likelihoods, AICs, and Akaike weights for the Gamma and Poisson distributions at 12 uM tubulin concentration.
+"
+  filename: part3_tubulin.py
+  desc:
+        Used to generate Table 1, 
+  pic: table1.png
+  req:
+    - ds:
+      title: Raw Data, Varying Tubulin Concentrations
+      storage: remote
+      link: "datasets/gardner_mt_catastrophe_only_tubulin.csv"
+
+- fig: 
+  title: "Table 2. Parameters alpha, beta, and alpha/beta of the Gamma distribution for various tubulin concentrations.
+"
+  filename: part3_tubulin.py
+  desc:
+        Used to generate Table 2, 
+  pic: table2.png
+  req:
+    - ds:
+      title: Raw Data, Varying Tubulin Concentrations
+      storage: remote
+      link: "datasets/gardner_mt_catastrophe_only_tubulin.csv"
