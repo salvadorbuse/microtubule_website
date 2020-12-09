@@ -20,6 +20,8 @@ sidebar: true
 {% if entry[0] != 'authors' %}
 ## {{entry[0]}}
 {{entry[1]}}
+{% endif %}
+{% endfor %}
 
 {% for fig in site.data.figure3 %}
 <style>
@@ -34,6 +36,5 @@ sidebar: true
 <div class="center">
     <img src = "{{site.url}}/{{site.baseurl}}/assets/img/{{figure3.pic}}"> 
 </div>
-{% endif %}
 {% endif %}
 {% endfor %}
