@@ -1,12 +1,12 @@
 - dataset:
-  storage: remote 
+  storage: online 
   link: "gardner_time_to_catastrophe_dic_tidy.csv"
   name: "Raw Data, Labeled vs. Unlabeled Tubulin"
   filetype: .csv
   filesize: 5 kb
   
 - dataset:
-  storage: remote 
+  storage: online 
   link: "gardner_mt_catastrophe_only_tubulin.csv"
   name: "Raw Data, Varying Tubulin Concentrations"
   filetype: .csv
