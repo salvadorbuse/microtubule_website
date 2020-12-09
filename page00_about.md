@@ -26,7 +26,7 @@ sidebar: true
 {% endif %}
 {% endif %}
 
-{% if entry[0] == 'image' %}
+{% if entry[1] == 'image' %}
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/{{site.data.about.image}}" >
 {% endif %}
 
