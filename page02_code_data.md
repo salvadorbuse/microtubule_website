@@ -42,9 +42,9 @@ sidebar: true
 <i>Necessary Data Sets </i><br/>
 {% for ds in fig.req %}
 {% if ds.storage == 'local' %}
-<b class="post-title"><a href="{{site.url}}/{{site.baseurl}}/datasets/{{ds.link}}">{{ds.title}}</a></b>
+<b class="post-text"><a href="{{site.url}}/{{site.baseurl}}/datasets/{{ds.link}}">{{ds.title}}</a></b>
 {% else %}
-<b class="post-title"><a href="{{ds.link}}" >{{ds.title}}</a></b>
+<b class="post-text"><a href="{{ds.link}}" >{{ds.title}}</a></b>
 {% endif %}
 <a style="font-size: 0.9em;" href="{{link}}"> - {{ds.title}} </a><br/>
 {% endfor %}
