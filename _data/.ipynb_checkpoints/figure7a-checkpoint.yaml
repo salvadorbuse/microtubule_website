@@ -1,0 +1,12 @@
+- fig: 
+  title: "Figure 7. Predictive ECDFs for the Gamma (left) and Poisson (right) distributions overlaid with ECDFs of time to microtubule catastrophe.
+"
+  filename: figure7.py
+  desc:
+        Used to generate Figure 7, 
+  pic: figure7a.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link: 

@@ -1,0 +1,10 @@
+- fig:
+  title: "Figure 1. Microtubule catastrophe occurs when depolymerization is suddenly favored over tubulin polymerization, resulting in the loss of the GTP-bound tubulin cap. The paper by Garner and coworkers proposes a model in which catastrophe is a multi-step process. Source: Gardner et al., 2011"
+  filename: N/A
+  desc:  N/A
+  pic: abstractfigure.jpg
+  req:
+    - ds: 
+      storage: local
+      title: 
+      link:

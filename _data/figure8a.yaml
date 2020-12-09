@@ -1,0 +1,12 @@
+- fig: 
+  title: "Figure 8. Q-Q plots comparing the model to the empirical data for the Gamma (left) and Poisson (right) distributions.
+"
+  filename: figure8.py
+  desc:
+        Used to generate Figure 8, 
+  pic: figure8a.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link:

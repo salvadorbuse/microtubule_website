@@ -1,0 +1,12 @@
+- fig: 
+  title: "Figure 4. ECDFs of the bootstrapped mean times to catastrophe obtained for labeled and unlabeled tubulin. The two shapes look similar to what we might expect from the confidence intervals: the labeled ECDF is to the right of the unlabeled, and is steeper and narrower.
+"
+  filename: figure4.py
+  desc:
+        Used to generate Figure 4, 
+  pic: figure4.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link: 

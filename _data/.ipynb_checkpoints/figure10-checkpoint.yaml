@@ -1,0 +1,12 @@
+- fig: 
+  title: "Figure 10. ECDFs of time to catastrophe at various tubulin concentrations (legend).
+"
+  filename: figure10.py
+  desc:
+        Used to generate Figure 10, 
+  pic: figure10.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link:

@@ -1,0 +1,16 @@
+- fig: 
+  title: "Fig. 5: Sustainable pour-over VHS"
+  filename: script1.py
+  desc:
+        Used to generate Figure 5, 
+  pic: fig3.png
+  req:
+    - ds:
+      title: Summarized dataset 1
+      storage: local
+      link: dataset1.csv
+
+    - ds:
+      title: Summarized dataset 2
+      storage: remote
+      link: "http://zenodo.org" 

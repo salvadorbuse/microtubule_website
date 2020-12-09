@@ -1,0 +1,12 @@
+- fig: 
+  title: "Figure 6. 95% confidence intervals calculated by theory (left) and bootstrapping from the empirical data (right).
+"
+  filename: figure6.py
+  desc:
+        Used to generate Figure 6, 
+  pic: figure6a.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link: 

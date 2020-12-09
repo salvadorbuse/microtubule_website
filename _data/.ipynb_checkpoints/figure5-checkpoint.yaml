@@ -1,0 +1,12 @@
+- fig: 
+  title: "Figure 5. ECDFs of the bootstrapped mean times to catastrophe overlaid with theoretical CDFs of the Normal distribution parameterized by labeled and unlabeled tubulin data (black lines).
+"
+  filename: figure5.py
+  desc:
+        Used to generate Figure 5, 
+  pic: figure5.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link: 

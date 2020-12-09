@@ -1,0 +1,12 @@
+- fig: 
+  title: "Figure 11. Gamma parameters $\alpha$, $\beta$, and $\alpha/\beta$ at various tubulin concentrations.
+"
+  filename: figure11.py
+  desc:
+        Used to generate Figure 11, 
+  pic: figure11c.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link:

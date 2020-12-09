@@ -1,0 +1,12 @@
+- fig: 
+  title: "Figure 9. Visualization of the differences between the empirical and predictive ECDFs for the Gamma (left) and Poisson (right) distributions.
+"
+  filename: figure9.py
+  desc:
+        Used to generate Figure 9, 
+  pic: figure9b.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link:

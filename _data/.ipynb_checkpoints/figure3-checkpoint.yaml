@@ -1,0 +1,13 @@
+- fig: 
+  title: "Figure 3. ECDFs of time to microtubule catastrophe for labeled and unlabeled tubulin. 95% confidence intervals are shown (shaded regions).
+"
+  filename: figure3.py
+  desc:
+        Used to generate Figure 3, 
+  pic: figure3.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link: 
+
