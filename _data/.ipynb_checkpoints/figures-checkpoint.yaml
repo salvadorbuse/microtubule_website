@@ -1,10 +1,194 @@
-- fig:
-  title: "Figure 2. A demonstration of tubulin incorporation into microtubles. Source: Varga et al., 2006 "
-  filename: N/A
-  desc:  N/A
-  pic: Varga2006microtubules.gif
+- fig: 
+  title: "Figure 3. ECDFs of time to microtubule catastrophe for labeled and unlabeled tubulin.
+"
+  filename: figure3.py
+  desc:
+        Used to generate Figure 3, 
+  pic: figure3.png
   req:
-    - ds: 
-      storage: local
+    - ds:
       title: 
+      storage: 
+      link: 
+      
+- fig: 
+  title: "Figure 4. ECDFs of the bootstrapped mean times to catastrophe obtained for labeled and unlabeled tubulin.
+"
+  filename: figure4.py
+  desc:
+        Used to generate Figure 4, 
+  pic: figure4.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link: 
+      
+- fig: 
+  title: "Figure 5. ECDFs of the bootstrapped mean times to catastrophe overlaid with theoretical CDFs of the Normal distribution.
+"
+  filename: figure5.py
+  desc:
+        Used to generate Figure 5, 
+  pic: figure5.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link: 
+      
+- fig: 
+  title: "Figure 6. 95% confidence intervals calculated by theory.
+"
+  filename: figure6.py
+  desc:
+        Used to generate Figure 6, 
+  pic: figure6a.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link: 
+      
+- fig: 
+  title: "Figure 6. 95% confidence intervals calculated by bootstrapping from the empirical data.
+"
+  filename: figure6.py
+  desc:
+        Used to generate Figure 6, 
+  pic: figure6b.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link:
+      
+- fig: 
+  title: "Figure 7. Predictive ECDFs for the Gamma distribution overlaid with the ECDF of time to microtubule catastrophe.
+"
+  filename: figure7.py
+  desc:
+        Used to generate Figure 7, 
+  pic: figure7a.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link: 
+      
+- fig: 
+  title: "Figure 7. Predictive ECDFs for the Poisson distribution overlaid with the ECDF of time to microtubule catastrophe.
+"
+  filename: figure7.py
+  desc:
+        Used to generate Figure 7, 
+  pic: figure7b.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link:
+      
+- fig: 
+  title: "Figure 8. Q-Q plot comparing the model to the empirical data for the Gamma distribution.
+"
+  filename: figure8.py
+  desc:
+        Used to generate Figure 8, 
+  pic: figure8a.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link:
+      
+- fig: 
+  title: "Figure 8. Q-Q plot comparing the model to the empirical data for the Poisson distribution.
+"
+  filename: figure8.py
+  desc:
+        Used to generate Figure 8, 
+  pic: figure8b.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link:
+      
+- fig: 
+  title: "Figure 9. Visualization of the differences between the empirical and predictive ECDFs for the Gamma distribution.
+"
+  filename: figure9.py
+  desc:
+        Used to generate Figure 9, 
+  pic: figure9a.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link:
+      
+- fig: 
+  title: "Figure 9. Visualization of the differences between the empirical and predictive ECDFs for the Poisson distribution.
+"
+  filename: figure9.py
+  desc:
+        Used to generate Figure 9, 
+  pic: figure9b.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link:
+      
+- fig: 
+  title: "Figure 10. ECDFs of time to catastrophe at various tubulin concentrations (legend).
+"
+  filename: figure10.py
+  desc:
+        Used to generate Figure 10, 
+  pic: figure10.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link:
+      
+- fig: 
+  title: "Figure 11. Gamma parameter $\alpha$ at various tubulin concentrations.
+"
+  filename: figure11.py
+  desc:
+        Used to generate Figure 11, 
+  pic: figure11a.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link:
+      
+- fig: 
+  title: "Figure 11. Gamma parameters $\beta$ at various tubulin concentrations.
+"
+  filename: figure11.py
+  desc:
+        Used to generate Figure 11, 
+  pic: figure11b.png
+  req:
+    - ds:
+      title: 
+      storage: 
+      link:
+      
+- fig: 
+  title: "Figure 11. Gamma parameter $\alpha/\beta$ at various tubulin concentrations.
+"
+  filename: figure11.py
+  desc:
+        Used to generate Figure 11, 
+  pic: figure11c.png
+  req:
+    - ds:
+      title: 
+      storage: 
       link:
