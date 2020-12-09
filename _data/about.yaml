@@ -20,9 +20,7 @@ Abstract: >
         ![Abstract Figure](https://salvadorbuse.github.io//microtubule_website/assets/img/abstractfigure.jpg)
     </p>
     
-    <p style="text-align: center;">
-        **Figure 1 Test.** Microtubule catastrophe occurs when depolymerization is suddenly favored over tubulin polymerization, resulting in the loss of the GTP-bound tubulin cap. The paper by Garner and coworkers proposes a model in which catastrophe is a multi-step process. Source: Gardner et al., 2011
-    </p>
+     **Figure 1 Test2.** Microtubule catastrophe occurs when depolymerization is suddenly favored over tubulin polymerization, resulting in the loss of the GTP-bound tubulin cap. The paper by Garner and coworkers proposes a model in which catastrophe is a multi-step process. Source: Gardner et al., 2011 {style=text-align:center}
     
 Experimental Methods:  >
     Gardner and coworkers monitored the dynamic instability of individual microtubules mainly via TIRF microscopy. Tubulin "seeds", or stable foundations for microtubule growth, were labeled with rhodamine dye and fixed to a glass coverslip. GTP-bound tubulin, labeled with the fluorophore Alexa-488, was flowed over the coverslips and allowed to polymerize onto the immobilized tubulin seeds. Use of two distinct dyes enabled the researchers to distinctly observe and measure the polymerization and depolymerization events-- the green tubulin could clearly be seen growing from the red tubulin seeds in real time. To confirm that the presence of the Alexa-488 dye did not interfere with the growth events, the authors performed a control experiment in which they monitored growth and depolymerization with unlabeled tubulin via differential interference contrast microscopy. 
