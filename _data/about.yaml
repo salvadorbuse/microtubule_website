@@ -119,7 +119,7 @@ Does tubulin labeling affect microtubule growth?: >
     While evaluation by eye cannot replace more rigorous statistical inference, an eye test can be useful for initial assessment of the data. A plot of ECDFs for the time to catastrophe for labeled and unlabeled tubulin reveals that the two distributions are similar, however not identical (Figure 3). The 95% confidence regions generated in iqplot overlap significantly (Figure 3, shaded regions); however these observations are not enough to make conclusive statements regarding the similarity of the two distributions.
     
     
-    <img style="display: block; margin: auto;" src="https://salvadorbuse.github.io//microtubule_website/assets/img/figure3.png" style="width:50%">
+    <img src="https://salvadorbuse.github.io//microtubule_website/assets/img/figure3.png" style="display: block; margin: auto; width:50%;">
     
     <p style = "text-align: center;">
         <b>Figure 3.</b> ECDFs of time to microtubule catastrophe for labeled and unlabeled tubulin. 95% confidence intervals are shown (shaded regions).
