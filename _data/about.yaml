@@ -24,10 +24,6 @@ Abstract: >
     </p>
     
     
-    ![Abstract Figure](https://salvadorbuse.github.io//microtubule_website/assets/img/abstractfigure.jpg)
-    
-     **Figure 1.** Microtubule catastrophe occurs when depolymerization is suddenly favored over tubulin polymerization, resulting in the loss of the GTP-bound tubulin cap. The paper by Garner and coworkers proposes a model in which catastrophe is a multi-step process. Source: Gardner et al., 2011
-    
 Experimental Methods:  >
     Gardner and coworkers monitored the dynamic instability of individual microtubules mainly via TIRF microscopy. Tubulin "seeds", or stable foundations for microtubule growth, were labeled with rhodamine dye and fixed to a glass coverslip. GTP-bound tubulin, labeled with the fluorophore Alexa-488, was flowed over the coverslips and allowed to polymerize onto the immobilized tubulin seeds. Use of two distinct dyes enabled the researchers to distinctly observe and measure the polymerization and depolymerization events-- the green tubulin could clearly be seen growing from the red tubulin seeds in real time. To confirm that the presence of the Alexa-488 dye did not interfere with the growth events, the authors performed a control experiment in which they monitored growth and depolymerization with unlabeled tubulin via differential interference contrast microscopy. 
 
@@ -123,14 +119,12 @@ Does tubulin labeling affect microtubule growth?: >
     While evaluation by eye cannot replace more rigorous statistical inference, an eye test can be useful for initial assessment of the data. A plot of ECDFs for the time to catastrophe for labeled and unlabeled tubulin reveals that the two distributions are similar, however not identical (Figure 3). The 95% confidence regions generated in iqplot overlap significantly (Figure 3, shaded regions); however these observations are not enough to make conclusive statements regarding the similarity of the two distributions.
     
     
-    ![Figure3](https://salvadorbuse.github.io//microtubule_website/assets/img/figure3.png)
+    <img style="display: block; margin: auto;" src="https://salvadorbuse.github.io//microtubule_website/assets/img/figure3.png" style="width:50%">
     
+    <p style = "text-align: center;">
+        <b>Figure 3.</b> ECDFs of time to microtubule catastrophe for labeled and unlabeled tubulin. 95% confidence intervals are shown (shaded regions).
+    </p>
     
-    <img src="https://salvadorbuse.github.io//microtubule_website/assets/img/figure3.png" style="width:50%">
-    
-    
-    **Figure 3.** ECDFs of time to microtubule catastrophe for labeled and unlabeled tubulin. 95% confidence intervals are shown (shaded regions).
-
 
     Calculating plug-in estimates, such as the mean, from the empirical distributions is another method of quick-checking the data for similarity but cannot provide any definite conclusions. These calculations show that the mean time to catastrophe is 440.7 seconds for labeled tubulin and 412.5 seconds for unlabeled tubulin. Once again, these values are similar, but in reality the mean of unlabeled tubulin is 93.6% the mean of labeled tubulin-- the two are not identical. 
 
@@ -138,16 +132,18 @@ Does tubulin labeling affect microtubule growth?: >
     Obtaining and comparing confidence intervals for the mean times to catastrophe provides more insight toward the similarity of this plug-in estimate than simply comparing two values does. Bootstrapping from the empirical data with a sample size of $n = 10000$, we generate 10,000 bootstrap replicates of the mean (Figure 4). Using these bootstrap replicates in our calculation of confidence intervals shows that the 95% confidence interval for the mean time to catastrophe for labeled tubulin is [401.87, 482.18] seconds, while this 95% confidence interval for unlabeled tubulin is [354.05, 476.32] seconds. These confidence intervals are similar, but the labeled confidence interval is narrower, and shifted towards longer values than, the unlabeled interval. Both of these phenomena are expected: there are more labeled datapoints, so we would expect a narrower confidence interval; additionally, as seen above, the mean of the labeled waiting times is above the mean of the unlabeled waiting times. As an aside, the two ECDFs of the mean times to catastrophe look like Normal distributions as the means of the samples obey the central limit theorerm. We confirm this observation through overlay of the ECDFs with theoretical CDFs of the normal distribution parameterized by the labeled and unlabeled tubulin data (Figure 5).
     
     
-    ![Figure4](https://salvadorbuse.github.io//microtubule_website/assets/img/figure4.png)
+    <img style="display: block; margin: auto;" src="https://salvadorbuse.github.io//microtubule_website/assets/img/figure4.png" style="width:50%">
     
+    <p style = "text-align: center;">
+        <b>Figure 4.</b> ECDFs of the bootstrapped mean times to catastrophe obtained for labeled and unlabeled tubulin. The two shapes look similar to what we might expect from the confidence intervals: the labeled ECDF is to the right of the unlabeled, and is steeper and narrower.
+    </p>
+
     
-    **Figure 4.** ECDFs of the bootstrapped mean times to catastrophe obtained for labeled and unlabeled tubulin. The two shapes look similar to what we might expect from the confidence intervals: the labeled ECDF is to the right of the unlabeled, and is steeper and narrower.
+    <img style="display: block; margin: auto;" src="https://salvadorbuse.github.io//microtubule_website/assets/img/figure5.png" style="width:50%">
     
-    
-    ![Figure5](https://salvadorbuse.github.io//microtubule_website/assets/img/figure5.png)
-    
-    
-    **Figure 5.** ECDFs of the bootstrapped mean times to catastrophe overlaid with theoretical CDFs of the Normal distribution parameterized by labeled and unlabeled tubulin data (black lines).
+    <p style = "text-align: center;">
+        <b>Figure 5.</b> **Figure 5.** ECDFs of the bootstrapped mean times to catastrophe overlaid with theoretical CDFs of the Normal distribution parameterized by labeled and unlabeled tubulin data (black lines).
+    </p>
 
 
     **Construction of confidence intervals**
