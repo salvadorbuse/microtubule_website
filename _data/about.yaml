@@ -42,8 +42,8 @@ Experimental Methods:  >
 
     .column2 {
       margin: auto;
-      float: center;
-      width: 40%;
+      float: left;
+      width: 50%;
       padding: 5px;
     }
 
