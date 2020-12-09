@@ -30,7 +30,7 @@ Experimental Methods:  >
     <img style="display: block; margin: auto;" src="https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif">
     
     <p style = "text-align: center;">
-        **Figure 2.** A demonstration of tubulin incorporation into microtubles. Source: Varga et al., 2006
+        <b>Figure 2.</b> A demonstration of tubulin incorporation into microtubles. Source: Varga et al., 2006
     </p>
     
     <style>
@@ -41,6 +41,12 @@ Experimental Methods:  >
     .column2 {
       float: left;
       width: 50%;
+      padding: 5px;
+    }
+    
+    .column3 {
+      float: left;
+      width: 33.33%;
       padding: 5px;
     }
 
