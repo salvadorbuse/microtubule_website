@@ -18,6 +18,7 @@ sidebar: true
 
 {% if entry[0] != 'title' %}
 {% if entry[0] != 'authors' %}
+{% if entry[0] != 'image' %}
 ## {{entry[0]}}
 {{entry[1]}}
 
