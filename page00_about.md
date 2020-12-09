@@ -18,11 +18,16 @@ sidebar: true
 
 {% if entry[0] != 'title' %}
 {% if entry[0] != 'authors' %}
+{% if entry[0] != 'image' %}
 ## {{entry[0]}}
 {{entry[1]}}
 
-{{site.url}}/{{site.baseurl}}/assets/img/{{image}}
+{% endif %}
+{% endif %}
+{% endif %}
 
+{% if entry[0] == 'image' %}
+<img src="{{site.url}}/{{site.baseurl}}/assets/img/{{site.data.about.image}}" >
 {% endif %}
-{% endif %}
+
 {% endfor %}
