@@ -18,7 +18,7 @@ sidebar: true
 
 {% if entry[0] != 'title' %}
 {% if entry[0] != 'authors' %}
-{% if entry[0] != 'image' %}
+
 ## {{entry[0]}}
 {{entry[1]}}
 
@@ -26,7 +26,7 @@ sidebar: true
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/{{site.data.about.image}}" >
 {% endif %}
 
-{% endif %}
+
 {% endif %}
 {% endif %}
 
