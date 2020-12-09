@@ -199,6 +199,16 @@ Acknowledgements: >
     We would like to thank Gardner, coworkers, and all other scientists who generously shared their data with us over the course of the semester; the TAs for their hard work in making BE/Bi103a a success; Griffin Chure for his website template and general wisdom; and of course, Justin Bois, for his constant effort, enthusiasm, and dedication to his students.
     
 Data Set Downloads: >
+    [Cell Paper](https://doi.org/10.1016/j.cell.2011.10.037)
+    
+    
+    [Raw Data, Labeled vs. Unlabeled Tubulin](https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv)
+    
+    
+    [Raw Data, Varying Tubulin Concentrations](https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv)
+     
+    
+    [GitHub Repository](https://github.com/salvadorbuse/microtubule_website)
 
 References: >
 
