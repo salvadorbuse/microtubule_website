@@ -27,13 +27,10 @@ Experimental Methods:  >
     The following images were collected in a study by Varga et al., published in Nature in 2006. While not exactly representative of the images generated in this study, the images show how fluorescently labeled tubulin can be incorporated into microtubules through dynamic instability. This Nature study equipped Gardner and coworkers with the experimental methods used to generate the data that we'll now explore! 
     
     
-    ![Figure2](https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif)
+    <img style="display: block; margin: auto;" src="https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif">
     
     
     **Figure 2.** A demonstration of tubulin incorporation into microtubles. Source: Varga et al., 2006
-    
-    
-    <img style="display: block; margin: auto;" src="https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif">
     
     <style>
     * {
