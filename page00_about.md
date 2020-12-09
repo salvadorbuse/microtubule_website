@@ -21,7 +21,8 @@ sidebar: true
 ## {{entry[0]}}
 {{entry[1]}}
 
-{{site.url}}/{{site.baseurl}}/assets/img/{{image}}
+{% if entry[0] == 'image' %}
+{{site.url}}/{{site.baseurl}}/assets/img/{{site.data.about.image}}
 
 {% endif %}
 {% endif %}
