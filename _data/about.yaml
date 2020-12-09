@@ -19,6 +19,7 @@ Abstract: >
     
     ![Abstract Figure](https://salvadorbuse.github.io//microtubule_website/assets/img/abstractfigure.jpg)
     
+    
     **Figure 1.** Microtubule catastrophe occurs when depolymerization is suddenly favored over tubulin polymerization, resulting in the loss of the GTP-bound tubulin cap. The paper by Garner and coworkers proposes a model in which catastrophe is a multi-step process. Source: Gardner et al., 2011
     
 Experimental Methods:  >
@@ -29,6 +30,7 @@ Experimental Methods:  >
     
     
     ![Figure2](https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif)
+    
     
     **Figure 2.** A demonstration of tubulin incorporation into microtubles. Source: Varga et al., 2006 
  
@@ -47,6 +49,7 @@ Does tubulin labeling affect microtubule growth?: >
     
     ![Figure3](https://salvadorbuse.github.io//microtubule_website/assets/img/figure3.png)
     
+    
     **Figure 3.** ECDFs of time to microtubule catastrophe for labeled and unlabeled tubulin. 95% confidence intervals are shown (shaded regions).
 
 
@@ -58,10 +61,12 @@ Does tubulin labeling affect microtubule growth?: >
     
     ![Figure4](https://salvadorbuse.github.io//microtubule_website/assets/img/figure4.png)
     
+    
     **Figure 4.** ECDFs of the bootstrapped mean times to catastrophe obtained for labeled and unlabeled tubulin. The two shapes look similar to what we might expect from the confidence intervals: the labeled ECDF is to the right of the unlabeled, and is steeper and narrower.
     
     
     ![Figure5](https://salvadorbuse.github.io//microtubule_website/assets/img/figure5.png)
+    
     
     **Figure 5.** ECDFs of the bootstrapped mean times to catastrophe overlaid with theoretical CDFs of the Normal distribution parameterized by labeled and unlabeled tubulin data (black lines).
 
@@ -79,6 +84,7 @@ Does tubulin labeling affect microtubule growth?: >
     
     
     ![Figure6b](https://salvadorbuse.github.io//microtubule_website/assets/img/figure6b.png)
+    
     
     **Figure 6.** 95% confidence intervals calculated by theory (left) and bootstrapping from the empirical data (right).
 
@@ -115,6 +121,7 @@ Is microtubule catastrophe a Gamma or Poisson distributed process?: >
     
     ![Figure7b](https://salvadorbuse.github.io//microtubule_website/assets/img/figure7b.png)
     
+    
     **Figure 7.** Predictive ECDFs for the Gamma (left) and Poisson (right) distributions overlaid with ECDFs of time to microtubule catastrophe.
 
 
@@ -126,6 +133,7 @@ Is microtubule catastrophe a Gamma or Poisson distributed process?: >
     
     ![Figure8b](https://salvadorbuse.github.io//microtubule_website/assets/img/figure8b.png)
     
+    
     **Figure 8.** Q-Q plots comparing the model to the empirical data for the Gamma (left) and Poisson (right) distributions.
 
 
@@ -136,6 +144,7 @@ Is microtubule catastrophe a Gamma or Poisson distributed process?: >
     
     
     ![Figure9b](https://salvadorbuse.github.io//microtubule_website/assets/img/figure9b.png)
+    
     
     **Figure 9.** Visualization of the differences between the empirical and predictive ECDFs for the Gamma (left) and Poisson (right) distributions.
 
@@ -151,6 +160,7 @@ Is microtubule catastrophe a Gamma or Poisson distributed process?: >
     
     ![Table1](https://salvadorbuse.github.io//microtubule_website/assets/img/table1.png)
 
+    
     **Table 1.** Maximum likelihood estimates of the parameters, log-likelihoods, AICs, and Akaike weights for the Gamma and Poisson distributions at 12 $\mu$M tubulin concentration. 
 
 
@@ -162,6 +172,7 @@ What is the effect of tubulin on microtubule catastrophe time?: >
     
     ![Figure10](https://salvadorbuse.github.io//microtubule_website/assets/img/figure10.png)
     
+    
     **Figure 10.** ECDFs of time to catastrophe at various tubulin concentrations (legend).
     
 
@@ -169,6 +180,7 @@ What is the effect of tubulin on microtubule catastrophe time?: >
     
     
     ![Table2](https://salvadorbuse.github.io//microtubule_website/assets/img/table2.png)
+    
     
     **Table 2.** Parameters $\alpha$, $\beta$, and $\alpha/\beta$ of the Gamma distribution for various tubulin concentrations.
     
@@ -180,6 +192,7 @@ What is the effect of tubulin on microtubule catastrophe time?: >
     
     
     ![Figure11c](https://salvadorbuse.github.io//microtubule_website/assets/img/figure11c.png)
+    
     
     **Figure 11.** Gamma parameters $\alpha$, $\beta$, and $\alpha/\beta$ at various tubulin concentrations.
 
