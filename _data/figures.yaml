@@ -5,7 +5,7 @@
   desc:
         Used to generate Figure 3, 
   pic: figure3.png
-  req:
+  req: https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv
     - ds:
       title: 
       storage: 
