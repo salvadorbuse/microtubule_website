@@ -329,7 +329,7 @@ Is microtubule catastrophe a Gamma or Poisson distributed process?: >
     We can go one step further in our analysis by calculating the Akaike weights for each model compared to the other (Table 1). The Akaike weight of the Gamma model is approximately 1 since the Akaike weight of the Poisson model is so small (and AW_Gamma + AW_Poisson = 1). The Akaike weight of the Gamma model is loosely the probability that this model would better predict any new microtubule catastrophe data compared to the Poisson distribution. Therefore, because the Akaike weights indicate that the Gamma distribution would be a better model for new measurements, these results favor the Gamma distribution as a model for microtubule catastrophe.
     
     
-    <img style="display: block; margin: auto;" src="https://salvadorbuse.github.io//microtubule_website/assets/img/table1.png" style="width:30%">
+    <img style="display: block; margin: auto;" src="https://salvadorbuse.github.io//microtubule_website/assets/img/table1.png" style="width:25%">
     
     <p style = "text-align: center;">
         <b>Table 1.</b> Maximum likelihood estimates of the parameters, log-likelihoods, AICs, and Akaike weights for the Gamma and Poisson distributions at 12 $\mu$M tubulin concentration. 
