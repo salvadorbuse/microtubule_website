@@ -1,5 +1,5 @@
 - dataset:
-  storage: remote 
+  storage: online 
   link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_time_to_catastrophe_dic_tidy.csv"
   DOI:  "10.1.1./journal.0000"
   name: "Raw Data, Labeled vs. Unlabeled Tubulin"
@@ -7,7 +7,7 @@
   filesize: 5 kb
   
 - dataset:
-  storage: remote 
+  storage: online 
   link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
   name: "Raw Data, Varying Tubulin Concentrations"
   filetype: .csv
