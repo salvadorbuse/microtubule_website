@@ -35,10 +35,26 @@ Experimental Methods:  >
     
     <img style="display: block; margin: auto;" src="https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif">
     
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    </style>
+    
     <div class="row">
-        <div class="column">
-            <img src="https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif" style="width:100%">
-        </div>
         <div class="column">
             <img src="https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif" style="width:100%">
         </div>
