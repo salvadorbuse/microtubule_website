@@ -168,7 +168,7 @@
       link: "https://s3.amazonaws.com/bebi103.caltech.edu/data/gardner_mt_catastrophe_only_tubulin.csv"
       
 - fig: 
-  title: "Figure 11b. Gamma parameters beta at various tubulin concentrations.
+  title: "Figure 11b. Gamma parameter beta at various tubulin concentrations.
 "
   filename: figure11.py
   desc:
