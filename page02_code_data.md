@@ -57,6 +57,11 @@ sidebar: true
 ## Figure Generation Test
 
 {% for fig in site.data.figures2 %}
-<div img src = "{{site.url}}/{{site.baseurl}}/assets/img/{{fig.pic}}"> </div>
+<img src = "{{site.url}}/{{site.baseurl}}/assets/img/{{fig.pic}}"> .center {
+margin: auto;
+width: 60%;
+border: 3px solid #73AD21;
+padding: 10px;
+}
 {%endfor%}
 {% endif %}
