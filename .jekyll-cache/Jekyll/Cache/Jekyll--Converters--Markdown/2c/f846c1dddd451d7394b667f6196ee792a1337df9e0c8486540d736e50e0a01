@@ -1,0 +1,90 @@
+I"°
+<hr />
+
+<h2 id="code">Code</h2>
+
+<ul>
+  <li>
+    <p><a href="http://localhost:4000//software/script1.py"><strong>script1.py</strong></a>
+| Super fancy script which calcualate some complicated stuff with well-documented code.</p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000//software/script2.py"><strong>script2.py</strong></a>
+| Yet another script that does something-or-other.</p>
+  </li>
+</ul>
+
+<h2 id="data-sets">Data Sets</h2>
+
+<ul>
+  <li>
+    <p><a href="http://localhost:4000//datasets/dataset1.csv">Sampling statistics from some fancy experiment</a> | (filetype:
+.csv)(24 MB)</p>
+  </li>
+  <li>
+    <p><a href="http://localhost:4000//datasets/dataset2.csv">Table of measurements from an old-school study for comparison</a> | (filetype:
+.csv)</p>
+  </li>
+  <li>
+    <p><a href="">Anonymized data from web scraping</a> | (filetype:
+.zip)(2 gb)</p>
+  </li>
+</ul>
+
+<h2 id="figure-generation">Figure Generation</h2>
+
+<article class="post">
+
+<a class="post-thumbnail" style="background-image: url(http://localhost:4000//assets/img/fig1.png)" href="/figures/"> </a>
+
+<div class="post-content">
+<b class="post-title"><a href="http://localhost:4000//software/script1.py">Fig. 1: Paleo cardigan kombucha, pickled brunch shabby chic </a></b>
+<p> Used to generate the figure1</p>
+
+<i>Necessary Data Sets </i><br />
+
+
+<a style="font-size: 0.9em;" href="{{ds.link}}"> - Dataset 1 </a><br />
+
+</div>
+</article>
+
+<article class="post">
+
+<a class="post-thumbnail" style="background-image: url(http://localhost:4000//assets/img/fig2.png)" href="/figures/"> </a>
+
+<div class="post-content">
+<b class="post-title"><a href="http://localhost:4000//software/script2.py">Fig. 2: Activated charcoal tilde kombucha. </a></b>
+<p> Used to generate Figure 2, illustrating activated kombucha on tap.</p>
+
+<i>Necessary Data Sets </i><br />
+
+
+<a style="font-size: 0.9em;" href="{{site.url}}/{{site.baseurl}}/datasets/{{ds.link}}"> - Kombucha tempura desconstructed measures </a><br />
+
+
+<a style="font-size: 0.9em;" href="{{site.url}}/{{site.baseurl}}/datasets/{{ds.link}}"> - Gravitational wave lo-fi beats to chill and study to </a><br />
+
+</div>
+</article>
+
+<article class="post">
+
+<a class="post-thumbnail" style="background-image: url(http://localhost:4000//assets/img/fig3.png)" href="/figures/"> </a>
+
+<div class="post-content">
+<b class="post-title"><a href="http://localhost:4000//software/script1.py">Fig. 5: Sustainable pour-over VHS</a></b>
+<p> Used to generate Figure 5,</p>
+
+<i>Necessary Data Sets </i><br />
+
+
+<a style="font-size: 0.9em;" href="{{site.url}}/{{site.baseurl}}/datasets/{{ds.link}}"> - Summarized dataset 1 </a><br />
+
+
+<a style="font-size: 0.9em;" href="{{ds.link}}"> - Summarized dataset 2 </a><br />
+
+</div>
+</article>
+
+:ET
