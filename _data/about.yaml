@@ -39,12 +39,21 @@ Does tubulin labeling affect microtubule growth?: >
 
 
     While evaluation by eye cannot replace more rigorous statistical inference, an eye test can be useful for initial assessment of the data. A plot of ECDFs for the time to catastrophe for labeled and unlabeled tubulin reveals that the two distributions are similar, however not identical (Figure 3). The 95% confidence regions generated in iqplot overlap significantly (Figure 3, shaded regions); however these observations are not enough to make conclusive statements regarding the similarity of the two distributions.
+    
+    
+    ![Figure3](https://salvadorbuse.github.io//microtubule_website/assets/img/figure3.png)
 
 
     Calculating plug-in estimates, such as the mean, from the empirical distributions is another method of quick-checking the data for similarity but cannot provide any definite conclusions. These calculations show that the mean time to catastrophe is 440.7 seconds for labeled tubulin and 412.5 seconds for unlabeled tubulin. Once again, these values are similar, but in reality the mean of unlabeled tubulin is 93.6% the mean of labeled tubulin-- the two are not identical. 
 
 
     Obtaining and comparing confidence intervals for the mean times to catastrophe provides more insight toward the similarity of this plug-in estimate than simply comparing two values does. Bootstrapping from the empirical data with a sample size of $n = 10000$, we generate 10,000 bootstrap replicates of the mean (Figure 4). Using these bootstrap replicates in our calculation of confidence intervals shows that the 95% confidence interval for the mean time to catastrophe for labeled tubulin is [401.87, 482.18] seconds, while this 95% confidence interval for unlabeled tubulin is [354.05, 476.32] seconds. These confidence intervals are similar, but the labeled confidence interval is narrower, and shifted towards longer values than, the unlabeled interval. Both of these phenomena are expected: there are more labeled datapoints, so we would expect a narrower confidence interval; additionally, as seen above, the mean of the labeled waiting times is above the mean of the unlabeled waiting times. As an aside, the two ECDFs of the mean times to catastrophe look like Normal distributions as the means of the samples obey the central limit theorerm. We confirm this observation through overlay of the ECDFs with theoretical CDFs of the normal distribution parameterized by the labeled and unlabeled tubulin data (Figure 5).
+    
+    
+    ![Figure4](https://salvadorbuse.github.io//microtubule_website/assets/img/figure4.png)
+    
+    
+    ![Figure5](https://salvadorbuse.github.io//microtubule_website/assets/img/figure5.png)
 
 
     **Construction of confidence intervals**
@@ -54,6 +63,12 @@ Does tubulin labeling affect microtubule growth?: >
 
 
     There are some similarities and some differences between the confidence intervals from theory and those from bootstrapping (Figure 6). In both cases, the confidence intervals are wider for the unlabeled microtubules: this is expected, as the width of the confidence interval is inversely proportional to the root of the number of points. On the other hand, the confidence intervals are wider for the theoretical plot than the bootstrapped plot. This phenomenon could be attributed to the fact that these theoretical intervals come from upper bounds, which might be quite conservative.
+    
+    
+    ![Figure6a](https://salvadorbuse.github.io//microtubule_website/assets/img/figure6a.png)
+    
+    
+    ![Figure6b](https://salvadorbuse.github.io//microtubule_website/assets/img/figure6b.png)
 
 
     Overall, there is very significant overlap of the theoretical confidence intervals for labeled an unlabeled tubulin, which supports the observations we have made thus far that the two are very similarly distributed.
@@ -81,12 +96,30 @@ Is microtubule catastrophe a Gamma or Poisson distributed process?: >
 
 
     After generating predictive ECDFs, we overlay the empirical data with the 95% confidence intervals of these ECDFs (Figure 7). We see that the data falls within the predictive ECDF region of the Gamma distribution at almost all time points. The data falls largely outside of the predictive ECDF of the Poisson distribution-- at times below ~400 seconds, the model overestimates the distribution, while at times greater than ~500 seconds, the model underestimates the distribution. From these plots alone, the Gamma distribution seems to be a better model for the data.
+    
+    
+    ![Figure7a](https://salvadorbuse.github.io//microtubule_website/assets/img/figure7a.png)
+    
+    
+    ![Figure7b](https://salvadorbuse.github.io//microtubule_website/assets/img/figure7b.png)
 
 
     We generate some Q-Q plots as another way to visualize how well the model distribution correlates to the data (Figure 8). For the Gamma distribution, the data fits within 95% of the Q-Q plots at times less than 1000 seconds. At times greater than 1000 seconds, the distribution falls outside of these intervals. However, from the data we see that there are relatively few microtubule catastrophe events happening at times greater than 1000 seconds-- so the good fit of the data to our model at times below 1000 seconds is more important than the poor fit of the data to our model at times after 1000 seconds. With the Poisson distribution, we see almost completely the opposite. The data correlates with the model poorly at times below 1000 seconds yet shows better correlation at times above 1000 seconds. As stated above, the data contains few points corresponding to catastrophe times greater than 1000 seconds, so the Q-Q plot indicates that the Poisson distribution that we've defined does not fit the data very well.
+    
+    
+    ![Figure8a](https://salvadorbuse.github.io//microtubule_website/assets/img/figure8a.png)
+    
+    
+    ![Figure8b](https://salvadorbuse.github.io//microtubule_website/assets/img/figure8b.png)
 
 
     As a last method of graphical assessment, we make plots that show the difference between the predictive ECDF and the measured ECDF (Figure 9). The larger the ECDF difference (y-axis) in either the positive or negative direction, the larger the deviation from the median predictive EDCF, indicating a poor correlation between the model distribution and the actual data. Like we observe from the predictive ECDF plots above, we see that most of the experimental data falls within the 95% confidence intervals of the Gamma-distributed predictive ECDF (light blue shading). Much of the data falls outside of the 95% confidence intervals on the predictive ECDF of the Poisson distribution.
+    
+    
+    ![Figure9a](https://salvadorbuse.github.io//microtubule_website/assets/img/figure9a.png)
+    
+    
+    ![Figure9b](https://salvadorbuse.github.io//microtubule_website/assets/img/figure9b.png)
 
 
     Overall, each of the graphical model assessments above give the same result and indicate that the Gamma distribution is a more accurate model of microtubule catastrophe. We next utilize some non-graphical methods of model assessment.
@@ -96,15 +129,33 @@ Is microtubule catastrophe a Gamma or Poisson distributed process?: >
 
 
     We can go one step further in our analysis by calculating the Akaike weights for each model compared to the other (Table 1). The Akaike weight of the Gamma model is approximately 1 since the Akaike weight of the Poisson model is so small (and AW_Gamma + AW_Poisson = 1). The Akaike weight of the Gamma model is loosely the probability that this model would better predict any new microtubule catastrophe data compared to the Poisson distribution. Therefore, because the Akaike weights indicate that the Gamma distribution would be a better model for new measurements, these results favor the Gamma distribution as a model for microtubule catastrophe.
+    
+    
+    ![Table1](https://salvadorbuse.github.io//microtubule_website/assets/img/table1.png)
 
 
     In summary, the AIC and Akaike weight calculations agree with the conclusion from the graphical model assessment that the Gamma distribution is the preferred model for microtubule catastrophe data.
 
 What is the effect of tubulin on microtubule catastrophe time?: >
     An ECDF of time to microtubule catastrophe at various tubulin concentrations shows that at increasing concentrations of tubulin, the time it takes for microtubule catastrophe to occur increases as well (Figure 10).
+    
+    
+    ![Figure10](https://salvadorbuse.github.io//microtubule_website/assets/img/figure10.png)
+    
 
-
-    We can confirm these initial observations through comparison of parameter estimates at each tubulin concentration (Figure 11). As we demonstrated above, the Gamma distribution seems to be the better model of microtubule catastrophe, thus we compare the $\alpha$ and $\beta$ parameter estimates for all concentrations. Since the mean of Gamma-distributed data is equal to $\alpha/\beta$, we also calculate and compare this parameter estimate.
+    We can confirm these initial observations through comparison of parameter estimates at each tubulin concentration (Table 2, Figure 11). As we demonstrated above, the Gamma distribution seems to be the better model of microtubule catastrophe, thus we compare the $\alpha$ and $\beta$ parameter estimates for all concentrations. Since the mean of Gamma-distributed data is equal to $\alpha/\beta$, we also calculate and compare this parameter estimate.
+    
+    
+    ![Table2](https://salvadorbuse.github.io//microtubule_website/assets/img/table2.png)
+    
+    
+    ![Figure11a](https://salvadorbuse.github.io//microtubule_website/assets/img/figure11a.png)
+    
+    
+    ![Figure11b](https://salvadorbuse.github.io//microtubule_website/assets/img/figure11b.png)
+    
+    
+    ![Figure11c](https://salvadorbuse.github.io//microtubule_website/assets/img/figure11c.png)
 
 
     There is no clear trend for either the $\alpha$ or $\beta$ parameter estimates with increasing tubulin concentration. However, we see that $\alpha / \beta$ increases with increasing tubulin concentration (with the exception of 7 and 9 uM tubulin, which appear to be very similarly distributed looking back at the ECDFs in Figure 10). Thus, we can conclude that with increasing tubulin concentration, the average time to catastrophe increases. 
