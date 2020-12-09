@@ -22,11 +22,12 @@ sidebar: true
 ## {{entry[0]}}
 {{entry[1]}}
 
+{% endif %}
+{% endif %}
+{% endif %}
+
 {% if entry[0] == 'image' %}
 <img src="{{site.url}}/{{site.baseurl}}/assets/img/{{site.data.about.image}}" >
 {% endif %}
 
-{% endif %}
-{% endif %}
-{% endif %}
 {% endfor %}
