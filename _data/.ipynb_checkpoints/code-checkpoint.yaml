@@ -1,11 +1,12 @@
 - script:
-  name: script1.py
+  name: part1_labeled_unlabeled.py
   desc: >
-    Super fancy script which calcualate some complicated stuff with
-    well-documented code.
+    Script for part 1 of the analysis, comparison of labeled vs. unlabeled tubulin.
 - script:
-  name: script2.py
+  name: part2_modeling.py
   desc: >
-    Yet another script that does something-or-other.
-
-
+    Script for part 2 of the analysis, comparison of the Gamma and Poisson models.
+- script:
+  name: part3_tubulin.py
+  desc: >
+    Script for part 3 of the analysis, effect of tubulin concentration on time to catastrophe.
