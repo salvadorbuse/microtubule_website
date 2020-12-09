@@ -64,7 +64,7 @@ sidebar: true
 {% if site.data.figures2 %}
 ## Figure Generation Test 2
 
-{% for fig in site.data.figures2 %}
+{% for fig in site.data.figure2 %}
 <style>
 .center {
   margin: auto;
