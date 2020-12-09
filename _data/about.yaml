@@ -28,11 +28,11 @@ Experimental Methods:  >
 
     The following images were collected in a study by Varga et al., published in Nature in 2006. While not exactly representative of the images generated in this study, the images show how fluorescently labeled tubulin can be incorporated into microtubules through dynamic instability. This Nature study equipped Gardner and coworkers with the experimental methods used to generate the data that we'll now explore! 
     
-    
+    <div align="center">
     ![Figure2](https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif)
     
     
-    **Figure 2.** A demonstration of tubulin incorporation into microtubles. Source: Varga et al., 2006 
+    **Figure 2.** A demonstration of tubulin incorporation into microtubles. Source: Varga et al., 2006 </div>
  
 Statistical Methods Employed: > 
     We conduct statistical inference through a number of analyses, described here and in later sections. We demonstrate that there is no difference in time to microtubule catastrophe for labeled versus unlabeled tubulin through generation of bootstrap samples, calculation of statistical functionals and confidence intervals, and a null hypothesis significance test. To model the occurrence of microtubule catastrophe, we consider both the Gamma and Poisson distributions. We generate each of these models parameterized by data obtained by Gardner and coworkers, then conduct graphical and non-graphical model assessment to identify the more appropriate model.
