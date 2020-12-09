@@ -14,13 +14,11 @@ title: >
 authors: >
   Salvador Buse, Elin Larsson, Helena Awad
 Abstract: >
-    Microtubules are structural proteins implicated in a variety of cellular functions from intracellular organelle transport to mitosis. They consist of tubulin building blocks organized into a cylindrical array of thirteen protofilaments.  Central to their role in mitosis is the ability of microtubules to rapidly polymerize and depolymerize at one end, termed dynamic instability. Dynamic instability is a process driven by GTP hydrolysis-- GTP-bound tubulin is added to the ends of growing microtubles; hydrolysis of GTP to GDP results in rapid microtubule depolymerization. The ability of microtubles to grow and shrink in this manner is critical to many cellular processes-- the complete rearrangement of microtubules during mitosis is one example. At some point during their lifetimes, the alternating growth and shortening events suddenly transition to a period dominated by depolymerization. This phenomenon, known as microtubule collapse, had long been poorly understood by the scientific community. Here, we explore a dataset compiled by Gardner et al., presented in [this Cell paper](https://doi.org/10.1016/j.cell.2011.10.037). We find that microtubule catastrophe is a Gamma-distributed process, indicating that catastrophe is a series of depolymerization events occurring at the same rate. Additionally, we observe that increasing tubulin concentrations delay the onset of catastrophe, indicating that the addition of tubulin can prolong the period of growth and shortening. In the analysis that follows, we will present the statistical inference that we conducted to arrive at our conclusions. 
-    
+    Microtubules are structural proteins implicated in a variety of cellular functions from intracellular organelle transport to mitosis. They consist of tubulin building blocks organized into a cylindrical array of thirteen protofilaments.  Central to their role in mitosis is the ability of microtubules to rapidly polymerize and depolymerize at one end, termed dynamic instability. Dynamic instability is a process driven by GTP hydrolysis-- GTP-bound tubulin is added to the ends of growing microtubles; hydrolysis of GTP to GDP results in rapid microtubule depolymerization. The ability of microtubles to grow and shrink in this manner is critical to many cellular processes-- the complete rearrangement of microtubules during mitosis is one example. At some point during their lifetimes, the alternating growth and shortening events suddenly transition to a period dominated by depolymerization. This phenomenon, known as microtubule collapse, had long been poorly understood by the scientific community. Here, we explore a dataset compiled by Gardner et al., presented in [this Cell paper](https://doi.org/10.1016/j.cell.2011.10.037). We find that microtubule catastrophe is a Gamma-distributed process, indicating that catastrophe is a series of depolymerization events occurring at the same rate. Additionally, we observe that increasing tubulin concentrations delay the onset of catastrophe, indicating that the addition of tubulin can prolong the period of growth and shortening. In the analysis that follows, we will present the statistical inference that we conducted to arrive at our conclusions.
     
     ![Abstract Figure](https://salvadorbuse.github.io//microtubule_website/assets/img/abstractfigure.jpg)
     
-    
-    **Figure 1.** Microtubule catastrophe occurs when depolymerization is suddenly favored over tubulin polymerization, resulting in the loss of the GTP-bound tubulin cap. The paper by Garner and coworkers proposes a model in which catastrophe is a multi-step process. Source: Gardner et al., 2011
+     **Figure 1.** Microtubule catastrophe occurs when depolymerization is suddenly favored over tubulin polymerization, resulting in the loss of the GTP-bound tubulin cap. The paper by Garner and coworkers proposes a model in which catastrophe is a multi-step process. Source: Gardner et al., 2011
     
 Experimental Methods:  >
     Gardner and coworkers monitored the dynamic instability of individual microtubules mainly via TIRF microscopy. Tubulin "seeds", or stable foundations for microtubule growth, were labeled with rhodamine dye and fixed to a glass coverslip. GTP-bound tubulin, labeled with the fluorophore Alexa-488, was flowed over the coverslips and allowed to polymerize onto the immobilized tubulin seeds. Use of two distinct dyes enabled the researchers to distinctly observe and measure the polymerization and depolymerization events-- the green tubulin could clearly be seen growing from the red tubulin seeds in real time. To confirm that the presence of the Alexa-488 dye did not interfere with the growth events, the authors performed a control experiment in which they monitored growth and depolymerization with unlabeled tubulin via differential interference contrast microscopy. 
@@ -29,10 +27,73 @@ Experimental Methods:  >
     The following images were collected in a study by Varga et al., published in Nature in 2006. While not exactly representative of the images generated in this study, the images show how fluorescently labeled tubulin can be incorporated into microtubules through dynamic instability. This Nature study equipped Gardner and coworkers with the experimental methods used to generate the data that we'll now explore! 
     
     
-    ![Figure2](https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif)
+    <img style="display: block; margin: auto;" src="https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif">
     
     
     **Figure 2.** A demonstration of tubulin incorporation into microtubles. Source: Varga et al., 2006
+    
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .column2 {
+      float: left;
+      width: 50%;
+      padding: 5px;
+    }
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+    </style>
+    
+    
+    <div class="row">
+        <div class="column2">
+            <img src="https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif" style="display: block; margin: auto; width:80%">
+        </div>
+        <div class="column2">
+            <img src="https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif" style="display: block; margin: auto; width:80%">
+        </div>
+    </div>
+    
+    
+    
+    <div class="row">
+        <div class="column2">
+            <img src="https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif" style="display: block; margin: auto">
+        </div>
+        <div class="column2">
+            <img src="https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif" style="display: block; margin: auto">
+        </div>
+    </div>
+    
+    
+    
+    <div class="row">
+        <div class="column2">
+            <img src="https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif" style="width:100%">
+        </div>
+        <div class="column2">
+            <img src="https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif" style="width:100%">
+        </div>
+    </div>
+    
+    
+    
+    <div class="row">
+        <div class="column2">
+            <img src="https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif">
+        </div>
+        <div class="column2">
+            <img src="https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif">
+        </div>
+    </div>
+    
  
 Statistical Methods Employed: > 
     We conduct statistical inference through a number of analyses, described here and in later sections. We demonstrate that there is no difference in time to microtubule catastrophe for labeled versus unlabeled tubulin through generation of bootstrap samples, calculation of statistical functionals and confidence intervals, and a null hypothesis significance test. To model the occurrence of microtubule catastrophe, we consider both the Gamma and Poisson distributions. We generate each of these models parameterized by data obtained by Gardner and coworkers, then conduct graphical and non-graphical model assessment to identify the more appropriate model.
