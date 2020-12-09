@@ -22,7 +22,7 @@ sidebar: true
 
 ## {{entry[0]}}
 {{entry[1]}}
-<img src="{{site.url}}/{{site.baseurl}}/assets/img/{{entry[2]}}" >
+<img src="{{site.url}}/{{site.baseurl}}/assets/img/{{entry[1].image}}" >
 
 {% endif %}
 {% endif %}
