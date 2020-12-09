@@ -20,6 +20,9 @@ sidebar: true
 {% if entry[0] != 'authors' %}
 ## {{entry[0]}}
 {{entry[1]}}
+
+{{site.url}}/{{site.baseurl}}/assets/img/{{image}}
+
 {% endif %}
 {% endif %}
 {% endfor %}
