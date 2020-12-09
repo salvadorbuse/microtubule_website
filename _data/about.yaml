@@ -40,9 +40,9 @@ Experimental Methods:  >
       box-sizing: border-box;
     }
 
-    .column {
+    .column2 {
       float: left;
-      width: 33.33%;
+      width: 50%;
       padding: 5px;
     }
 
@@ -55,10 +55,10 @@ Experimental Methods:  >
     </style>
     
     <div class="row">
-        <div class="column">
+        <div class="column2">
             <img src="https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif" style="width:100%">
         </div>
-        <div class="column">
+        <div class="column2">
             <img src="https://salvadorbuse.github.io//microtubule_website/assets/img/Varga2006microtubules.gif" style="width:100%">
         </div>
     </div>
