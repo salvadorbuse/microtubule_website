@@ -9,7 +9,7 @@
     - ds:
       title: Raw Data, Labeled vs. Unlabeled Tubulin
       storage: local
-      link: "gardner_time_to_catastrophe_dic_tidy.csv"
+      link: gardner_time_to_catastrophe_dic_tidy.csv
       
 - fig: 
   title: "Figure 4. ECDFs of the bootstrapped mean times to catastrophe obtained for labeled and unlabeled tubulin.
@@ -22,7 +22,7 @@
     - ds:
       title: Raw Data, Labeled vs. Unlabeled Tubulin
       storage: Remote
-      link: "datasets/gardner_time_to_catastrophe_dic_tidy.csv"
+      link: datasets/gardner_time_to_catastrophe_dic_tidy.csv
       
 - fig: 
   title: "Figure 5. ECDFs of the bootstrapped mean times to catastrophe overlaid with theoretical CDFs of the Normal distribution.
